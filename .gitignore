@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.pyc
+# Auto-generated virtual environment
+/env/
+# Auto-collected static files folder
+/static/
+# Mac desktop service store files
+.DS_Store
