@@ -18,14 +18,14 @@ $ django-admin.py startproject <project_name> --template=https://github.com/msen
 $ mv ./config/* ./<project_name>
 ```
 config folder contains following files :
-* web.2.7.config           - web.config file for Python v2.7
-* web.3.4.config           - web.config file for Python v3.4
-* requirements.txt         - Azure server creates a virtual environment and installs the packages given in this file
-* .gitignore               - Simple .gitignore file for a django project
-* ptvs_virtualenv_proxy.py - Your django app will be running in a virtual environment so we need a proxy between IIS and Django
+* *web.2.7.config*           - web.config file for Python v2.7
+* *web.3.4.config*           - web.config file for Python v3.4
+* *requirements.txt*         - Azure server creates a virtual environment and installs the packages given in this file
+* *.gitignore*               - Simple .gitignore file for a django project
+* *ptvs_virtualenv_proxy.py* - Your django app will be running in an virtual environment so we need a proxy between IIS and Django
 
 ## Last touches
-Edit web.2.7.config and web.3.4.config files and replace {{ project_name }} part with your project name.
+Edit *web.2.7.config* and *web.3.4.config* files and replace **{{ project_name }}** part with your project name.
 
 Voila! Your django project is ready to be deployed on an azure web app.
 
